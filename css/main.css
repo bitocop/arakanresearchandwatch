@@ -1,0 +1,225 @@
+/* ------------------------------------------------------------------------------ 
+	Author: webthemez 
+/* ------------------------------------------------------------------------------
+	Typography
+-------------------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+	font-family: 'Raleway', sans-serif;
+}
+p {
+	font-size: 14px;
+	line-height: 22.4px;
+	color: #ffffff;
+}
+h1 {
+	font-size: 65px;
+	color: #2d3033;
+}
+h3 {
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+}
+h4 {
+	font-size: 22px;
+	color: #2d3033;
+	font-weight: 400;
+}
+h5 {
+	font-size: 14px;
+	color: #2d3033;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.btn {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 600;
+	border-bottom:3px solid rgba(255, 255, 255, 0.3);
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	letter-spacing:3px;
+	line-height:30px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+	border-bottom:3px solid rgba(229, 46, 46, 1);
+}
+.btn-large {
+	padding: 15px 40px;
+}
+/* ------------------------------------------------------------------------------
+	Global Styles
+-------------------------------------------------------------------------------*/
+a {
+	color: #000000;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	-moz-transition: background-color, color, 0.3s;
+	-o-transition: background-color, color, 0.3s;
+	-webkit-transition: background-color, color, 0.3s;
+	transition: background-color, color, 0.3s;
+	color: #256ef9;
+}
+body { 
+	font-weight: 400;
+	color: #6c7279;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+.section {
+	padding: 100px 0;
+}
+.no-padding {
+	padding: 0;
+}
+ .no-gutter [class*=col-] {
+ padding-right: 0;
+ padding-left: 0;
+}
+
+/* ------------------------------------------------------------------------------
+	Banner
+-------------------------------------------------------------------------------*/
+.logo-head {
+	color: #e84545;
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing:3px;
+	text-transform: uppercase;
+	padding:10px 20px;
+}
+.logo {
+	color: #fff;
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing:3px;
+	padding:10px 20px;
+}
+.banner-area {
+	position: relative;
+}
+.banner-area-gradient {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	background: rgba(0, 13, 29, 0.58);
+}
+.banner-text {
+	padding-top: 8%;
+	padding-bottom: 3%;
+}
+.banner-text h1 {
+	margin-top:10%;
+	color: #fff;
+	font-weight: 100;
+	font-size: 24px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+.banner-text p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	letter-spacing:3px;
+	margin-bottom: 5%;
+	font-family: arial;
+}
+
+/* ------------------------------------------------------------------------------
+	Countdown
+-------------------------------------------------------------------------------*/
+
+#countdown {
+	padding:0;
+	position:relative;
+	margin-top: 6%;
+	margin-bottom:5%;
+	padding: 10px 0 20px;
+}
+
+.item {
+	display: inline-block;
+	position: relative;
+	text-align:center;
+	margin:0 10px;
+	padding: 2%;
+	text-transform:uppercase;
+	font-size: 16px;
+	/* border-bottom: 1px solid #fff; */
+	color: #fff;
+	width: 148px;
+}
+.item p { 
+	text-align:center;
+	margin:0;
+	font-size: 54px;
+	padding:0;
+}
+
+#countdown .item:nth-child(1){background: rgb(208, 40, 40);}
+#countdown .item:nth-child(2){background: rgb(37, 110, 249);}
+#countdown .item:nth-child(3){background: rgb(38, 175, 38);}
+#countdown .item:nth-child(4){background: rgb(230, 158, 21);}
+
+.subscribe h2{
+	text-align: center;
+	font-size: 15px;
+}
+
+/* ------------------------------------------------------------------------------
+	 Footer
+-------------------------------------------------------------------------------*/
+.footer {text-align: center;/* background-color: rgba(24, 24, 24, 0.27); */padding: 50px 0 50px 0;/* background: rgba(255, 255, 255, 0.17); */}
+
+
+.footer h5 {
+	color: #fff;
+}
+.footer h5 {
+	margin-bottom: 20px;
+}
+.footer p {
+	color: #969696;
+	font-size:12px;
+	line-height:14px;
+}
+.footer a {
+	color: #fff;
+}
+.footer a:hover {
+	color: #03a9f4;
+}
+.footer .footer-share {
+	margin: 0 0 10px 0;
+}
+.footer .footer-share li {
+	display: inline-block;
+	float: none;
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 17px;
+	letter-spacing:20px;
+	color: #fff;
+}
+.footer .fa-heart {
+	color: #e84545;
+	font-size: 11px;
+	margin: 0 2px;
+}
