@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home1/arakanre/public_html/arwc
+        - /bin cp * $DEPLOYPATH
